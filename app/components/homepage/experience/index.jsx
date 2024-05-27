@@ -63,6 +63,18 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
+                          <p className="text-sm mt-3 sm:text-base">
+                            Tools:
+                          </p>
+                          <p className="text-sm sm:text-base">
+                            {experience.tools}
+                          </p>
+                          <p className="text-sm mt-3 sm:text-base">
+                              Responsibilities:
+                          </p>
+                          <p className="text-sm sm:text-base">
+                            {experience.responsibility}
+                          </p>
                         </div>
                       </div>
                     </div>
